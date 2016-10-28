@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* 全局样式 */
+html { font-size: 62.5%; }
+
+body, ul, h1, h2 {
+	margin: 0;
+}
+
+ul {
+	padding-left: 0;
+	list-style: none;
+}
+
+body {
+	font-size: 1.4rem;
+}
+
+h2 {
+	color: #999;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+.container {
+	width: 94%;
+	margin: 0 auto;
+}
+
+.clearfix {
+	overflow: hidden;
+	_zoom: 1%;
+}
+
+/* 页头 */
+.logo h1 a {
+	display: block;
+	width: 225px;
+	height: 60px;
+	background-image: url(../images/logo.png);
+}
+
+.tel {
+	height: 60px;
+	background-image: url(../images/tel.png);
+	background-position: right 0;
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+}
+
+.nav {
+	background-color: #1DA2F1;
+	height: 40px;
+	line-height: 40px;
+}
+
+.nav .home { font-size: 2rem; }
+
+.nav ul li a {
+	display: block;
+	width: 128px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+}
+.nav ul li a:hover { background-color: #E71376; }
+
+.nav>ul>li { float: left; }
+.subnav {
+	position: absolute;
+	background-color: rgba(42,164,238,0.5);
+}
+
+.nav>ul>li .subnav { display: none; }
+.nav>ul>li:hover .subnav { display: block; }
+
+/* banner */
+.banner { 
+	background-color: #ccc; 
+	text-align: center;
+}
+
+/* 幻灯 */
+#owl-demo { 
+	width: 100%; 
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+#owl-demo .item{ display: block;}
+
+#owl-demo img { display: block; width: 100%;}
+
+.owl-theme .owl-controls {
+	position: relative;
+	margin-top: -30px;
+}
